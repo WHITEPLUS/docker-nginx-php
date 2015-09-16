@@ -1,1 +1,1 @@
-# docker-wp
+# docker-nginx-php-go
