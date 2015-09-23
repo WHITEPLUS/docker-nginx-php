@@ -29,6 +29,6 @@ RUN curl -fsSL "$GOLANG_DOWNLOAD_URL" -o golang.tar.gz \
  && tar -C /usr/local -xzf golang.tar.gz \
  && rm golang.tar.gz \
  && mkdir -p "$GOPATH/src" "$GOPATH/bin" \
- && chmod -R 777 "$GOPATH"
+ && chmod -R 777 "$GOPATH" \
  && go get github.com/robfig/glock \
  && go get github.com/WHITEPLUS/gracefresh
